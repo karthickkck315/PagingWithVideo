@@ -12,6 +12,10 @@
 		771F926620FC642300421776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771F926420FC642300421776 /* Main.storyboard */; };
 		771F926820FC642500421776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771F926720FC642500421776 /* Assets.xcassets */; };
 		771F926B20FC642500421776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771F926920FC642500421776 /* LaunchScreen.storyboard */; };
+		771F927320FC644000421776 /* PagingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F927220FC644000421776 /* PagingVC.swift */; };
+		771F927820FC681D00421776 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 771F927620FC681D00421776 /* 1.png */; };
+		771F927F20FC6C3900421776 /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 771F927E20FC6C3900421776 /* sample_iPod.m4v */; };
+		771F928120FC6D2F00421776 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 771F928020FC6D2F00421776 /* 12.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		771F926720FC642500421776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771F926A20FC642500421776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771F926C20FC642500421776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771F927220FC644000421776 /* PagingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingVC.swift; sourceTree = "<group>"; };
+		771F927620FC681D00421776 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		771F927E20FC6C3900421776 /* sample_iPod.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_iPod.m4v; sourceTree = "<group>"; };
+		771F928020FC6D2F00421776 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				771F926020FC642300421776 /* AppDelegate.swift */,
+				771F927E20FC6C3900421776 /* sample_iPod.m4v */,
+				771F927620FC681D00421776 /* 1.png */,
+				771F928020FC6D2F00421776 /* 12.png */,
+				771F927220FC644000421776 /* PagingVC.swift */,
 				771F926220FC642300421776 /* ViewController.swift */,
 				771F926420FC642300421776 /* Main.storyboard */,
 				771F926720FC642500421776 /* Assets.xcassets */,
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771F928120FC6D2F00421776 /* 12.png in Resources */,
 				771F926B20FC642500421776 /* LaunchScreen.storyboard in Resources */,
 				771F926820FC642500421776 /* Assets.xcassets in Resources */,
 				771F926620FC642300421776 /* Main.storyboard in Resources */,
+				771F927F20FC6C3900421776 /* sample_iPod.m4v in Resources */,
+				771F927820FC681D00421776 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771F927320FC644000421776 /* PagingVC.swift in Sources */,
 				771F926320FC642300421776 /* ViewController.swift in Sources */,
 				771F926120FC642300421776 /* AppDelegate.swift in Sources */,
 			);
